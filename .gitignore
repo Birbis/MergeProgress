@@ -1,0 +1,17 @@
+### Unreal Engine ignores ###
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+### End Unreal Engine ignores ###
+
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
