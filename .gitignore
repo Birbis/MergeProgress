@@ -3,9 +3,43 @@ Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
+Plugins/*/Intermediate/*
+DerivedDataCache/*
+# Builds
+Build/*
+
+# Whitelist PakBlacklist-<BuildConfiguration>.txt files
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+
+# Don't ignore icon files in Build
+!Build/**/*.ico
+
+# Built data for maps
+*_BuiltData.uasset
+### Unreal Engine ignores ###
+MergeProgress/Binaries/
+MergeProgress/DerivedDataCache/
+MergeProgress/Intermediate/
+MergeProgress/Saved/
+MergeProgress/Plugins/*/Intermediate/*
+MergeProgress/DerivedDataCache/*
+# Builds
+MergeProgress/Build/*
+
+# Whitelist PakBlacklist-<BuildConfiguration>.txt files
+!MergeProgress/Build/*/
+MergeProgress/Build/*/**
+!MergeProgress/Build/*/PakBlacklist*.txt
+
+# Don't ignore icon files in Build
+!MergeProgress/Build/**/*.ico
+
+# Built data for maps
+*_BuiltData.uasset
 
 ### End Unreal Engine ignores ###
-
 
 ### vscode ###
 .vscode/*
@@ -14,7 +48,3 @@ Saved/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-
-
-MergeProgress/Config/
-!MergeProgress/Config/DefaultInput
