@@ -48,3 +48,6 @@ MergeProgress/Build/*/**
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+MergeProgress/.vs/
+
+.vs/
